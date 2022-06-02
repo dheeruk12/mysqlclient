@@ -48,6 +48,7 @@ class DataError(DatabaseError):
     __module__ = "MySQLdb"
 
 
+
 class OperationalError(DatabaseError):
     """Exception raised for errors that are related to the database's
     operation and not necessarily under the control of the programmer,
